@@ -6,6 +6,10 @@ help:
 python370:  ## Python 3.7.0
 	cd python370; docker build -t mine:python370 .
 
+.PHONY: python371
+python371:  ## Python 3.7.1
+	cd python371; docker build -t mine:python371 .
+
 .PHONY: latex
 latex:  ## TexLive
 	cd latex; docker build -t mine:latex .
